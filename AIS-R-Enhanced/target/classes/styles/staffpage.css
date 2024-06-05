@@ -1,0 +1,44 @@
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333; /* Change text color */
+}
+
+.main-button {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 16px;
+    -fx-pref-width: 370px; /* Button width */
+    -fx-pref-height: 40px; /* Button height */
+    -fx-background-radius: 5px; /* Rounded corners */
+}
+
+.main-button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
+
+
+.label-qualification {
+    -fx-font-size: 14px; /* Adjust font size */
+    -fx-font-weight: bold; /* Make the text bold */
+    -fx-text-fill: #333333; /* Change text color */
+}
+
+.choice-box-qualification {
+    -fx-pref-width: 200px; /* Set preferred width */
+    -fx-pref-height: 30px; /* Set preferred height */
+}
+
+
+Button {
+    -fx-background-color: #f44336; /* Red */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 14px;
+    -fx-pref-width: 200px; /* Button width */
+    -fx-pref-height: 40px; /* Button height */
+    -fx-background-radius: 5px; /* Rounded corners */
+}
+
+Button:hover {
+    -fx-background-color: #d32f2f; /* Darker red on hover */
+}

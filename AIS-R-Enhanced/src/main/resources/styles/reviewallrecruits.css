@@ -1,0 +1,29 @@
+.registration-heading {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333; /* Change text color */
+}
+
+TableView {
+    -fx-pref-width: 700px; /* Set preferred width */
+    -fx-pref-height: 400px; /* Set preferred height */
+}
+
+TableColumn {
+    -fx-alignment: CENTER; /* Center align content */
+}
+
+Button {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 16px;
+    -fx-pref-width: 250px; /* Button width */
+    -fx-pref-height: 40px; /* Button height */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-radius: 5px; /* Rounded borders */
+    -fx-border-color: transparent; /* Transparent border color */
+}
+
+Button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ais.DisplayManageStaffController" stylesheets="/styles/reviewallrecruits.css">
+    <children>
+        <VBox spacing="10" layoutX="120.0"  alignment="CENTER">
+        <Label text="List of All Management Staff" styleClass="registration-heading"/>
+    </VBox>
+      <TableView fx:id="managementStaffTableView" layoutX="14.0" layoutY="30.0" prefHeight="355.0" prefWidth="552.0">
+         <columns>
+            <TableColumn fx:id="fullNameColumn" prefWidth="100.0" text="Full Name" />
+            <TableColumn fx:id="addressColumn" prefWidth="100.0" text="Address" />
+            <TableColumn fx:id="phoneNumberColumn" prefWidth="100.0" text="Phone Number" />
+            <TableColumn fx:id="emailColumn" prefWidth="100.0" text="Email" />
+            <TableColumn fx:id="usernameColumn" prefWidth="100.0" text="Username" />
+            <TableColumn fx:id="passwordColumn" prefWidth="100.0" text="Password" />
+            <TableColumn fx:id="staffIDColumn" prefWidth="100.0" text="Staff ID" />
+            <TableColumn fx:id="managementLevelColumn" prefWidth="100.0" text="Management Level" />
+            <TableColumn fx:id="branchColumn" prefWidth="100.0" text="Branch" />
+         </columns>
+      </TableView>
+      <VBox alignment="CENTER" layoutX="200.0" layoutY="450.0"> 
+          <Button text="I want to Go Back" onAction="#goBack" />
+    </VBox>
+   </children>
+</AnchorPane>

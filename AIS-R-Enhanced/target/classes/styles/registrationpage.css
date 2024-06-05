@@ -1,0 +1,47 @@
+.registration-heading {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333; 
+}
+
+.input-container {
+    -fx-background-color: #f9f9f9; /* Light gray background */
+    -fx-border-color: #cccccc; /* Light gray border color */
+    -fx-border-width: 1px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-padding: 20px; /* Padding around the container */
+}
+
+HBox {
+    -fx-spacing: 10px; /* Spacing between label and input field */
+    -fx-alignment: CENTER; /* Center align the content */
+}
+
+Label {
+    -fx-font-size: 16px;
+}
+
+TextField, PasswordField {
+    -fx-pref-width: 200px; /* Set preferred width */
+    -fx-pref-height: 30px; /* Set preferred height */
+}
+
+ChoiceBox {
+    -fx-pref-width: 200px; /* Set preferred width */
+    -fx-pref-height: 30px; /* Set preferred height */
+}
+
+Button {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 16px;
+    -fx-pref-width: 200px; /* Button width */
+    -fx-pref-height: 40px; /* Button height */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-radius: 5px; /* Rounded borders */
+    -fx-border-color: transparent; /* Transparent border color */
+}
+
+Button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
